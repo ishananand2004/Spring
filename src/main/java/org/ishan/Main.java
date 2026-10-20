@@ -11,5 +11,8 @@ public class Main {
 
 //        OrderService order=context.getBean(OrderService.class);
 //        order.placeOrder();
+
+        CartService cartservice=context.getBean(CartService.class);
+        cartservice.addtocart();
     }
 }
